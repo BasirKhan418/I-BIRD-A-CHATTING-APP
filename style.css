@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: linear-gradient(rgb(202, 205, 220), rgb(104, 99, 190));
+height: 100vh;
+}
+.navarea {
+  background-image: linear-gradient(rgb(17, 42, 233), rgb(244, 244, 231));
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+#navlogo {
+  height: 70px;
+  width: 70px;
+}
+#chatarea {
+  margin: auto;
+  height: 500px;
+  width: 700px;
+  border: 2px solid blue;
+  border-radius: 10px;
+  background-image: linear-gradient(rgb(66, 93, 228), rgb(224, 41, 81));
+  overflow: auto;
+  margin-bottom: 5px;
+}
+.message {
+  color: black;
+  background-color: white;
+  padding: 10px;
+  width: 30%;
+  margin: 12px 5px;
+  border: 2px solid greenyellow;
+  border-radius: 5px;
+  font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+.left {
+  float: left;
+  clear: both;
+}
+.right {
+  float: right;
+  clear: both;
+}
+#chatlogo {
+  height: 35px;
+  width: 31px;
+}
+.clogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  margin: 0px 4px;
+}
+#sendarea {
+  text-align: center;
+  /* background-color: aliceblue; */
+}
+#messageinp {
+  padding: 10px;
+  font-weight: bold;
+  background-image: linear-gradient(rgb(66, 93, 228), rgb(224, 41, 81));
+  color: white;
+  width: 615px;
+  border-radius: 5px;
+  border: 2px solid beige;
+  font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+#btn {
+  background-image: linear-gradient(rgb(66, 93, 228), rgb(224, 41, 81));
+  color: white;
+  padding: 10px;
+  border: 2px solid beige;
+  border-radius: 5px;
+}
+h1{
+  text-align: center;
+  padding: 5px;
+  margin: 5px 0px;
+  font-family: 'Alumni Sans Inline One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+}
+@media only screen and (max-width: 714px) {
+  #chatarea {
+    margin: auto;
+    height: 80vh;
+    width: 100vw;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(66, 93, 228), rgb(224, 41, 81));
+  }
+  #messageinp {
+    padding: 10px;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(66, 93, 228), rgb(224, 41, 81));
+    color: white;
+    width: 83vw;
+    border-radius: 5px;
+    border: 2px solid beige;
+  }
+  .message {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    width: 40%;
+    margin: 12px 5px;
+    border: 2px solid greenyellow;
+    border-radius: 5px;
+  }
+}
+@media only screen and (max-width: 495px) {
+  #messageinp {
+    padding: 10px;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(66, 93, 228), rgb(224, 41, 81));
+    color: white;
+    width: 75vw;
+    border-radius: 5px;
+    border: 2px solid beige;
+  }
+}
+@media only screen and (max-width: 342px) {
+  #messageinp {
+    padding: 10px;
+    font-weight: bold;
+    background-image: linear-gradient(rgb(66, 93, 228), rgb(224, 41, 81));
+    color: white;
+    width: 65vw;
+    border-radius: 5px;
+    border: 2px solid beige;
+  }
+}

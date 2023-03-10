@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I-Messenger an online chatting web</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="client/client.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Roboto:wght@300&family=Source+Sans+Pro&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <div class="navarea">
+        <img src="messenger.png" alt="LOGO" id="navlogo" />
+        
+      </div>
+      <h1>Welcome to I-BIRD</h1>
+    </nav>
+    <div id="chatarea">
+        <!-- <div class="clogo">
+          <img src="messenger (1).png" alt="meslogo" id="chatlogo" />
+        </div> -->
+      </div>
+    <div id="sendarea">
+      <form action="#" id="formaction">
+        <input
+          type="text"
+          name="messageinp"
+          id="messageinp"
+          placeholder="Enter Something you want to chat!"
+        />
+        <button type="submit" id="btn">Send</button>
+      </form>
+    </div>
+  </body>
+</html>
